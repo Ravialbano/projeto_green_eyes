@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #757171;
+}
+h2, h3, h4, h5, h6{
+    color: #333;
+}
+h1{
+    color: #fff;
+}
+.navbar_container{
+
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    position: absolute;
+    top: -70px;
+
+}
+.navbar_itens{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    line-height: 110px;
+    
+}
+li{
+    list-style: none;
+    padding-right: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #Fff;
+    transition: 0.5s;
+}
+a:hover{
+    color: #9f9797;
+}
+
+.img_center{
+    background-image: url("img/Japan_Reflection_Green_Mountain-Nature_HD_Wallpaper_2560x1600.jpg");
+    background-size: cover;
+    padding: 15rem 0;
+    text-align: center;
+    text-shadow: #000 3px 2px 3px ;
+    font-weight: bold;
+    color: #fff;
+    height: 40rem;
+    
+}
+.banner-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+    
+
+}
+.img_1{
+    height: 400px;
+    width: 300px;
+
+}
+.passaros{
+    color: #Fff;
+    text-shadow: #000 3px 2px 3px   ;
+    font-weight: bold;
+    background-color: #333;
+    height:  50px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    
+}
+.button{
+    background-color: #333;
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+
+}
+.container_fotos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+#title{
+    text-transform: uppercase;
+    text-shadow: #000 2px 1px 2px ;
+    margin: 40px;
+    text-align: center;
+}
